@@ -44,7 +44,7 @@ Route::group(['middleware' => 'auth'], function () {
     
         Route::get('/Reportes/rptubicaciones/{id}', 'ReporteController@rptubicaciones');
     //
-
+        Route::get('/map', 'MapaController@vermapa')->name('Mapa');
 
 
 

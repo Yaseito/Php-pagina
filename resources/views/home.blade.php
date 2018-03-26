@@ -60,7 +60,14 @@ Bienvenido
                         </div>
                     </a>    
                 </div>
-
+                <div class="col-md-3">
+                    <a href="{{route("Mapa")}}">
+                        <div class="contenedor-reporte">
+                            <i class="fa fa-map fa-5x"></i>
+                            <h3><small>Mapa</small></h3>
+                        </div>
+                    </a>    
+                </div>
                 
     </div>
     </section>
